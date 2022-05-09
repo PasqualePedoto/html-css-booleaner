@@ -1,0 +1,24 @@
+#page{
+    height: auto;
+    width: 900px;
+    background-position: center center;
+    margin: 0 auto;
+}
+
+#header{
+    height: 150px;
+    width: auto;
+    background-image: url('img/pattern.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: dodgerblue;
+}
+
+#name{
+    height: 50px;
+    width: 300px;
+    background-image: url('img/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 25% 75%;
+}
