@@ -67,3 +67,25 @@ figure{
 ul{
     margin: 0;
 }
+
+table{
+    margin-top: 10px;
+    border-spacing: 0;
+}
+
+thead{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.first-second{
+    width: 25%;
+}
+
+.third{
+    width: 45%;
+}
+
+.row{
+    background-color: #1ddeed;
+}
