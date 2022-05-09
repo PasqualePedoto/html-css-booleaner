@@ -60,7 +60,7 @@ figure{
     margin: 0;
 }
 
-#text{
+.text{
     background-color: yellow;
 }
 
@@ -88,4 +88,17 @@ thead{
 
 .row{
     background-color: #1ddeed;
+}
+
+h4{
+    color: #9d9797;
+}
+
+.image{
+    background-image: url('img/monitor.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    margin-bottom: 10px;
 }
