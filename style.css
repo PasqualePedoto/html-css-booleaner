@@ -1,4 +1,4 @@
-#page{
+#container{
     height: auto;
     width: 1000px;
     background-position: center center;
@@ -6,7 +6,7 @@
 }
 
 #header{
-    height: 150px;
+    height: 100px;
     width: auto;
     background-image: url('img/pattern.png');
     background-repeat: repeat;
@@ -14,13 +14,12 @@
     background-color: dodgerblue;
 }
 
-#name{
-    height: 50px;
-    width: 300px;
-    background-image: url('img/logo.svg');
+#boolean{
+    height: 120px;
+    width: 200px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 25% 75%;
+    padding-top: 20px;
 }
 
 h1{
@@ -65,7 +64,8 @@ figure{
 }
 
 ul{
-    margin: 0;
+    padding-inline-start: 15px;
+
 }
 
 table{
@@ -90,15 +90,29 @@ thead{
     background-color: #1ddeed;
 }
 
-h4{
+h3{
     color: #9d9797;
 }
 
-.image{
+#image1{
     background-image: url('img/monitor.jpg');
     height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
-    color: white;
     margin-bottom: 10px;
+}
+
+#image2{
+    background-image: url('img/graph.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+}
+
+.txt-figure{
+    font-size: 22px;
+    color: white;
+    margin: 20px;
+
 }
