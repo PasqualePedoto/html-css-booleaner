@@ -1,6 +1,6 @@
 #page{
     height: auto;
-    width: 900px;
+    width: 1000px;
     background-position: center center;
     margin: 0 auto;
 }
@@ -21,4 +21,49 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 25% 75%;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 3px;
+}
+
+#author{
+    color: rgb(150, 150, 150);
+    margin: 0;
+    font-weight: bold;
+}
+
+#society{
+    color: dodgerblue;
+}
+
+#date{
+    color: rgb(150, 150, 150);
+    margin: 0;
+    font-size: 11px;
+}
+
+.photo{
+    height: 400px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.didascalia{
+    margin: 0;
+    font-size: 10px;
+}
+
+figure{
+    margin: 0;
+}
+
+#text{
+    background-color: yellow;
+}
+
+ul{
+    margin: 0;
 }
